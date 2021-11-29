@@ -1,0 +1,127 @@
+@font-face {
+    font-family: cursi;
+    src: url(Letra2.otf);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    background-image: linear-gradient(135deg, #094c57, #546b52, #2f3f80, #76768b, #5b66ac, #80517c, #ff7cae);
+    background-size: 500%;
+    animation: fanimado 10s infinite;
+    
+}
+
+@keyframes fanimado {
+    
+    0%{
+        background-position: 0% 50%;
+    }
+    50%{
+        background-position: 100% 50%;
+    }
+    100%{
+  }
+}
+
+.Historia{
+    text-align: center;
+    color: rgb(23, 4, 48);
+    font-family: fantasy;
+    padding: 7px;
+    font-size: 20px;
+}
+
+
+.body{
+    background-color: rgba(2, 2, 2, 0.747);
+    padding: center;
+
+}
+
+.vide{
+margin-left: 90px;
+float: left;
+}
+
+.Titulo{
+    text-align: center;
+    font-family: cursi;
+    color: rgb(255, 255, 255);
+    padding: 2px;
+    font-size: 40px;
+}
+
+.Origen{
+    color: rgb(5, 5, 5);
+    background-color: rgba(202, 198, 202, 0.767);
+    width: 500px;
+    height: 250px;
+    text-align: justify;
+    padding: 20px;
+    margin-left: 700px;
+    margin-top: 1px;
+    float: center;
+    border-radius: 15px;
+    font-size: 15px;
+}
+
+
+
+/* cajas inferiores*/
+.contenido{
+    float: left;
+    width: 500px;
+    height: 480px;
+    background-color: rgba(202, 198, 202, 0.76);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin:4px;
+    text-align: justify;
+    text-anchor: 1px;
+    margin-left: 90px;
+    padding: 38px;
+    border-radius: 15px;
+    font-size: 17px;
+}
+
+.contenido2{
+    float: left;
+    width: 500px;
+    height: 150px;
+    background-color: rgba(202, 198, 202, 0.76);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: justify;
+    margin: 50px;
+    text-anchor: 1px;
+    margin-left: 90px;
+    padding: 38px;
+    border-radius: 15px;
+    font-size: 15px;
+}
+
+.contenido3{
+    float: left;
+    color: rgb(12, 12, 12);
+    background-color: rgba(202, 198, 202, 0.76);
+    width: 500px;
+    height: 300px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: justify;
+    text-anchor: 1px;
+    margin-left: 90px;
+    padding: 38px;
+    border-radius: 15px;
+    font-size: 15px;
+}
+
+
+img{
+    width: 280px;
+    left: 40px;
+    margin-left: 90px;
+    padding: 80px;
+    float: center;
+}

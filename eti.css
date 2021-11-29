@@ -1,0 +1,142 @@
+@font-face {
+    font-family: arabeu;
+    src: url(letra2.ttf);
+}
+body{
+    background-image: linear-gradient(135deg,#8F190E,#A82E1C, #752E1C, #B81A14, #B45344, #5D2014, #4E2214, #9E3C23, #4B3027, #393027);
+    background-size: 500%;
+    animation: fanimado 10s infinite;
+}
+h1{
+    font-family: arabeu;
+    font-size: 70px;
+    text-align: center;
+    color: white;
+}
+
+.caja_arriba{
+    width: 78%;
+    height: 250px;
+    background-image: linear-gradient(135deg, #FFF141, #F0DD99, #FFE9D6, #FAB043,#FF943E);
+    background-size: 500%;
+    animation: fanimado 10s infinite;
+    text-align: justify;
+    padding: 10px;
+    margin-top: 30px;
+    margin-left: 120px;
+    margin-right: 40px;
+    margin-bottom: 50px;
+    border-radius: 20px;
+    border: 2px solid black;
+}
+.imagenprin{
+    background: url(https://funci.org/wp-content/uploads/2007/12/islam_edouard-richter_la-dance-au-harem-300x196.jpg);
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: center;
+    margin: auto;
+    width: 300px;
+    height: 150px;
+}
+
+.caja1{
+    background-image: linear-gradient(135deg, #FFF141, #F0DD99, #FFE9D6, #FAB043,#FF943E);
+    background-size: 500%;
+    animation: fanimado 10s infinite;
+    padding: 5px;
+    margin-top: 30px;
+    margin-left: 120px;
+    margin-right: 40px;
+    margin-bottom: 10px;
+    width: 78%;
+    height: 40px;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    border: 2px solid black;
+}
+.caja2{
+    margin-left: 120px;
+    float: left;
+    width: 37%;
+    height: 500px;
+    background-image: linear-gradient(135deg, #9FEBF3, #72DBA8, #7ADBCC);
+    background-size: 500%;
+    animation: fanimado 10s infinite;
+    text-align: justify;
+    padding: 10px;
+    border: 2px solid black;
+}
+.imagen1{
+    background: url(https://static.educalingo.com/img/es/800/arabia-preislamica.jpg);
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: center;
+    margin: auto;
+    width: 300px;
+    height: 210px;
+}
+
+.caja3{
+    margin-left: 2px;
+    margin-right: 160px; 
+    float: right;
+    width: 37%;
+    height: 500px;
+    background-image: linear-gradient(135deg, #9FEBF3, #72DBA8, #7ADBCC);
+    background-size: 500%;
+    animation: fanimado 10s infinite;
+    text-align: justify;
+    padding: 10px;
+    border: 2px solid black;
+}
+.imagen2{
+    background: url(https://www.lavanguardia.com/files/image_449_220/uploads/2019/08/07/5f15ef2e519e9.jpeg);
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: center;
+    margin: auto;
+    width: 300px;
+    height: 210px;
+}
+
+
+.religión{
+    width: 78%;
+    height: 460px;
+    background-image: linear-gradient(135deg, #FFF141, #F0DD99, #FFE9D6, #FAB043,#FF943E);
+    background-size: 500%;
+    animation: fanimado 10s infinite;
+    text-align: justify;
+    padding: 10px;
+    margin-top: 550px;
+    margin-left: 120px;
+    margin-right: 40px;
+    border-radius: 20px;
+    border: 2px solid black;
+}
+.imagen3{
+    background: url(https://la-meca.org/wp-content/uploads/2015/03/Religion-Musulmana.jpg);
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: center;
+    margin: auto;
+    width: 300px;
+    height: 210px;
+}
+
+
+
+
+
+@keyframes fanimado {
+    
+    0%{
+        background-position: 0% 50%;
+    }
+    50%{
+        background-position: 100% 50%;
+    }
+    100%{
+        background-position: 0% 50%;
+    }
+}

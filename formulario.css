@@ -1,0 +1,118 @@
+@font-face {
+    font-family: arabeu;
+    src: url(letra1.otf);
+}
+header{
+    width: 100%; 
+    height: auto;
+    position: relative;
+}
+video{
+    width: 1332px;
+    height: 750px;
+    left: 0;
+    top: 0;
+    min-height: 100%;
+    min-width: 100%;
+}
+.sombra{
+    width: 1332px;
+    height: 760px;
+    position: absolute;
+    background: rgba(0, 0, 0, 0.575);
+}
+.bod2{
+    background-image: linear-gradient(135deg, rgb(212, 145, 145), rgb(235, 187, 116));
+    background-size: 500%;
+    animation: fanimado 10s infinite;
+    border-radius: 30px;
+    width: 30%;
+    height: 65%;
+    top: 170px;
+    left: 460px;
+    position: absolute;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    color: var(--color-white);
+    text-align: center;
+    padding: 20px;
+}
+.absolute{
+    width: 100%;
+    height: 0px;
+    top: 0px;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+}
+h1{ 
+    font-size: 50px;
+    color: #fff;
+    font-family: arabeu;
+    text-align: center;
+}
+.form{
+    position: absolute;
+    text-align: center;
+    background-color: white;
+    padding-top: center;
+    margin: center;
+    color: white;
+}
+.botones {
+    display: flex;
+    flex-wrap: wrap;
+    top: 0px;
+    margin-top: 0px;
+    float: top;
+    
+    
+}
+.boton {
+    text-align: justify;
+    border-radius: 5px;
+    border: 1px solid black;
+    font-weight: 800;
+    display: block;
+    padding: 5px 10px;
+    margin: 5px auto;
+    width: 50%;
+   
+}
+a{
+    /*outline: 1px solid hotpink;*/
+    text-decoration: none;
+    background:  rgba(0, 0, 0, 0.575);
+    color: white;
+    text-align: center;
+    
+}
+a:hover {
+    background-image: linear-gradient(135deg, rgb(92, 70, 128), #6f1d8f);
+    background-size: 500%;
+    animation: fanimado 10s infinite;
+    color:rgb(32, 32, 32);
+}
+.alternativa{
+    text-align: justify;
+    margin-left: 60px;
+}
+.camp{
+margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+
+@keyframes fanimado {
+    
+    0%{
+        background-position: 0% 50%;
+    }
+    50%{
+        background-position: 100% 50%;
+    }
+    100%{
+        background-position: 0% 50%;
+    }
+}

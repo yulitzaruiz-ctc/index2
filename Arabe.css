@@ -1,0 +1,33 @@
+header{
+    width: 100%; 
+    height: auto;
+    position: relative;
+}
+video{
+    width: 1332px;
+    height: 750px;
+    left: 0;
+    top: 0;
+    min-height: 100%;
+    min-width: 100%;
+}
+.sombra{
+    width: 1332px;
+    height: 760px;
+    position: absolute;
+    background: rgba(0, 0, 0, 0.575);
+}
+
+
+.form{
+    text-align: center;
+    background-color: white;
+    padding-top: center;
+    margin: center;
+}
+
+.camp{
+margin-top: 20px;
+    margin-bottom: 20px;
+}
+

@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ÁRABES</title>
+    <link rel="stylesheet" href="principal.css">
+</head>
+
+<body>
+    <header>
+        <div class="sombra"></div>
+        <video muted autoplay loop>
+                <source src="escritura_árabe.mp4" type="video/mp4">
+        </video>
+        
+        <div class="absolute">
+            <h1>El mundo árabe</h1>
+        </div>
+        <div class="relative">
+            <nav>
+                <ul>
+                    <li>
+                        <a href="etim.árabe.html">Cultura</a>
+                    </li>
+                    <li>
+                        <a href="IdiomaArabeH.html">Idioma</a>
+                    </li>
+                    <li>
+                        <a href="definicion.html">Tipos de escritura</a>
+                    </li>
+                    <li>
+                        <a href="proyecto1.html">Tipos de árabes</a>
+                    </li>
+                    <li>
+                        <a href="productos.html">Productos árabes</a>
+                    </li>
+                    
+                </ul>
+            </nav>
+        </div>
+
+
+        
+
+        <div class ="bod2">
+              <section class="container">
+                <div id="message">
+                  <label for="message">Ingresa el mensaje secreto ¡Cuidado que alguien te puede ver!🕵️</label>
+                  <br>
+                  <textarea id="cadena"></textarea>
+                  <span id="counter">0/280</span>
+
+                  <br>
+                  <label for="offset">Clave secreta</label>
+                  <br>
+                  <input id="offset" type="number" min="-100" max="100" placeholder="Ingresa tu clave secreta aquí" name="offset" step="1">
+               
+          <p>
+              <div class="btnGroup">
+              
+              <input type="button" value="codificar" onclick="codificar()">
+                
+              <input type="button" value="decodificar" onclick="decodificar()"></p>
+             
+              </div>
+              </section>
+          <div id="resultado"></div>
+    
+        </div>
+        <script src="encripta.js"></script>
+        
+</body>
+</html>
